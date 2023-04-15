@@ -11,14 +11,14 @@
 		</svelte:fragment>
 
 		<svelte:fragment slot="nav-right">
-			<NavItem external="https://meetlily.org">Meetlily</NavItem>
+			<NavItem external="https://learn.meetlily.org">Meetlily</NavItem>
 
-			<NavItem external="https://meetlily.org/chat" title="Meetlily Chat">
+			<NavItem external="https://chat.meetlily.org/chat" title="Meetlily Chat">
 				<span slot="small">Chat</span>
 				<Icon name="message-square" />
 			</NavItem>
 
-			<NavItem external="https://github.com/meetlily/learn" title="GitHub Repo">
+			<NavItem external="https://github.com/meetlily/learn.meetlily.org" title="GitHub Repo">
 				<span slot="small">GitHub</span>
 				<Icon name="github" />
 			</NavItem>
