@@ -62,6 +62,7 @@
 		"port-authority": "^2.0.1",
 		"prism-svelte": "^0.5.0",
 		"prismjs": "^1.29.0",
+		"vercel": "^28.18.5",
 		"ws": "^8.13.0",
 		"yootils": "^0.3.1"
 	},
