@@ -4,8 +4,8 @@
 	"private": false,
 	"description": "Interactive learning using the latest technology.",
 	"scripts": {
-		"start": "vite --host --port 5000 --mode production",
-		"dev": "vite dev --host --port 5000 --mode development",
+		"start": "vite dev --host --port 6000 --mode production",
+		"dev": "vite dev --host --port 6000",
 		"build": "node scripts/create-common-bundle && vite build",
 		"preview": "vite preview --host --port 4000",
 		"test": "npm run build && playwright test",

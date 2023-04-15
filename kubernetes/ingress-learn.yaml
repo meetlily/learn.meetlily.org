@@ -12,7 +12,7 @@ spec:
     service:
       name: learn-server-service
       port:
-        number: 4000
+        number: 6000
   rules:
     - host: "learn.meetlily.org"
       http:
@@ -23,6 +23,6 @@ spec:
             service:
               name: learn-server-service
               port:
-                number: 5000
+                number: 6000
    
     

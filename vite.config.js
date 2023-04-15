@@ -25,7 +25,6 @@ export default {
 
 		sveltekit()
 	],
-	resolve: { alias: { '@': '/src' } },
 	server: {
 		fs: {
 			allow: [path.resolve('.apps')]
@@ -33,7 +32,7 @@ export default {
 		watch: {
 			ignored: ['**/.apps/**']
 		},
-		port: 5000
+		port: 6000
 	},
 
 	ssr: {

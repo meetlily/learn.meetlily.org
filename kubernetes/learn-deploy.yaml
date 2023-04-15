@@ -16,7 +16,7 @@ spec:
         app: learn-server
     spec:
       containers:
-        - image: meetlily/learn:v1
+        - image: meetlily/educator:v2
           imagePullPolicy: "IfNotPresent"
           name: learn-server
           env:
@@ -29,7 +29,7 @@ spec:
           - name: VITE_APP_TITLE
             value: "Learn"
           ports:
-            - containerPort: 5000
+            - containerPort: 6000
           resources: {}
 
 ---
@@ -44,8 +44,8 @@ spec:
   type: ClusterIP # Sets service type
   ports:
     - name: learn-server
-      port: 5000 # Sets port to run the learn application
-      targetPort: 5000
+      port: 6000 # Sets port to run the learn application
+      targetPort: 6000
     - name: learn-preview
       port: 4000 # Sets port to run the learn application
       targetPort: 4000

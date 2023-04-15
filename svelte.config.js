@@ -6,9 +6,9 @@ const config = {
 	kit: {
 		adapter: adapter({ runtime: 'edge' }),
 
-		version: {
-			name: child_process.execSync('git rev-parse HEAD').toString().trim()
-		}
+		// version: {
+		// 	name: child_process.execSync('git rev-parse HEAD').toString().trim()
+		// }
 	},
 
 	vitePlugin: {
