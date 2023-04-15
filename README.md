@@ -1,4 +1,4 @@
-# learn.meetlily.org
+# learn.7erver.com
 
 A soup-to-nuts interactive tutorial on how to build apps with Svelte.
 

@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: learn-server-deployment
-  namespace: default
+  namespace: learning
   labels:
     app: learn-server
 spec:
@@ -37,7 +37,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: learn-server-service # Sets service name
-  namespace: default
+  namespace: learning
   labels:
     app: learn-server # Labels and Selectors
 spec:

@@ -2,19 +2,19 @@ apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
   name: learn-ingress
-  namespace: default
+  namespace: learning
 spec:
   tls:
   - hosts:
-      - learn.7erver.com
-    secretName: chat-tls
+      - learn.meetlily.org
+    secretName: meetlily-org-tls
   defaultBackend:
     service:
       name: learn-server-service
       port:
         number: 4000
   rules:
-    - host: "learn.7erver.com"
+    - host: "learn.meetlily.org"
       http:
         paths:
         - pathType: Prefix
